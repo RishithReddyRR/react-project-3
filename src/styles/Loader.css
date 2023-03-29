@@ -1,0 +1,17 @@
+.load{
+    border-bottom: 3px solid black;
+    color: white;
+    animation: rotate .5s linear infinite  ;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+    margin: auto;
+    margin-top: 30vh;
+    /* background-color: black; */
+}
+@keyframes rotate {
+    to{
+        transform: rotateZ(360deg);
+    }
+}
